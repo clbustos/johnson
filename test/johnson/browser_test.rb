@@ -38,6 +38,6 @@ begin
       end
     end
   end
-rescue LoadError
+rescue LoadError =>e 
   # Yehuda is teh lame.
 end
